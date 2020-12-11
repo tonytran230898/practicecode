@@ -1,0 +1,251 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    font-family:  SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+.header {
+    display: flex;
+}
+.logo {
+    margin-top: 20px;
+    margin-left: 15px;
+    padding-top: 20px;
+}
+.button {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 72%;
+    z-index: 1;
+}
+.button1 {
+    width: 90px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #0060AF;
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.button1:hover {
+    background-color: #ED1C24;
+}
+.login {
+    text-decoration: none;
+    color: white;
+}
+.link {
+    position: absolute;
+    display: block;
+    margin-top: 5%;
+    margin-left: 81%;
+}
+.link1{
+    width: 30px;
+    height: 20px;
+    text-decoration: none;
+    text-align: center;
+    color: #0060AF;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: 2px solid #0060AF;
+}
+.link1:last-child {
+    border: none;
+}
+.link1:hover {
+    color: #ED1C24;
+}
+.nav{
+    margin-top: 3%;
+    width: 100%;
+    background-color: #0060AF;
+}
+nav.nav > ul {
+    list-style: none;
+}
+.menu {
+    display: flex;
+}
+.sub {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    background-color: #0060AF;
+    color: white;
+    border-right: solid 3px;
+    height: 50px;
+    padding-top: 15px;
+}
+.sub:hover {
+    background-color: #ED1C24;
+}
+.sub1 {
+   width: 15%;
+}
+.info-menu {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color:  #0060AF;
+    height: 35px;
+    padding-top: 5px;
+    display: block;
+    border-top: solid 1px;
+    z-index: 5;
+}
+.menu-con {
+    display: none;
+    position: absolute;
+    width: 15%;
+    list-style: none;
+}
+.menu > .sub1:hover .menu-con {
+    display: block;
+}
+.info-menu:hover {
+    background-color: #ED1C24;
+}
+.section {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.san-pham-moi {
+    width: 67%;
+    border-bottom: solid 2px ;
+}
+.h2 {
+    text-decoration: none;
+    color: black;
+}
+.h2:hover {
+    color: #ED1C24;
+}
+#info {
+    margin-top: 20px;
+    width: 67%;
+    display: center;
+}
+.anh-sp {
+    width: 40%;
+    margin-right: 20px;
+    float: left;
+    border-radius: 5px;
+}
+.tensanpham {
+    color: #0060AF;
+}
+p {
+    font-size: 17px;
+}
+.hinh-san-pham {
+    width: 67%;
+    height: 120px;
+    margin-top: 20px;
+    background-color: rgba(224, 221, 221, 0.5)
+}
+.spp {
+    width: 13%;
+    margin-left: 28px;
+    margin-top: 21px;
+}
+.article {
+    width: 67%
+}
+.news {
+    margin-top: 50px;
+    margin-left: 10px;
+    width: 100%;
+}
+.tin-tuc {
+    border-bottom: 2px solid ;
+}
+.tin-tuc > h2:hover {
+    color: #ED1C24;
+}
+h3 {
+    color: #ED1C24;
+}
+.new {
+    margin-left: 10px;
+    padding: 20px 0px;
+    border-bottom: 1px dotted  #0060AF;
+}
+.new:last-child {
+    border: none;
+}
+.tin-tuc1 {
+    color: #0060AF;
+}
+.anh-bia {
+    width: 100%;
+    height: 200px;
+    margin-left: 10px;
+}
+section {
+    display: flex;
+}
+.right {
+    width: 30%;
+}
+.aside {
+    margin-top: 30px;
+    margin-left: -400px;
+}
+.link-lien-quan {
+    border-bottom: 2px solid;
+}
+.tong-hop-link {
+    margin-left: 20px;
+    padding: 10px;
+}
+.tong-hop-link > ul > li {
+    padding: 15px;
+    color: #0060AF;
+    font-size: 17px;
+}
+.tong-hop-link > ul > li >a {
+    text-decoration: none;
+    color: #0060AF;
+}
+.tong-hop-link > ul > li:hover a {
+    color: #ED1C24
+}
+.photo-link {
+    margin-top: 10px;
+}
+.photo {
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.footer {
+    margin-top: 70px;
+    border-top: 1px solid;
+    display: flex;
+}
+.cong-ty {
+    padding-top: 10px;
+    margin-left: 10px;
+}
+.end {
+   padding-top: 10px;
+   margin-left: 1000px;
+}
+.linka {
+    text-align: right;
+    text-decoration: none;
+    color: #0060AF;
+    padding: 2px;
+}
+.linka:hover {
+    color: #ED1C24;
+}
+.ban-quyen {
+    text-align: right;
+}
+
+
+
